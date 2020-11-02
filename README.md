@@ -32,7 +32,7 @@ des_Cipher.txt：密文文件，32字节，256bit。用来保存密文
 
 3. 命令行指定明文文件、密钥文件、初始化向量文件的位置和名称、加密的操作模式以及加密完成后密文文件的位置和名称
 
-   命令行具体格式为：e1des -p plainfile -k keyfile [-v vifile] -m mode -c cipherfile 
+   命令行具体格式为：e1aes -p plainfile -k keyfile [-v vifile] -m mode -c cipherfile 
 
    参数： 
 
